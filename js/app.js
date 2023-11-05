@@ -79,7 +79,7 @@ function showMessage(where, message) {
   document.getElementById(`${where}`).textContent = message;
   setTimeout(() => {
     document.getElementById(`${where}`).textContent = "";
-  });
+  },2000);
 }
 
 formCreate.addEventListener("submit", (e) => {
